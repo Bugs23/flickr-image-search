@@ -1,0 +1,38 @@
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #fff;
+}
+
+.col-md-4.col-sm-6 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.image-container {
+	position: relative;
+	height: 300px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+
+.image-container:hover, .image-container:focus {
+	background-color: #ccc;
+}
+
+.flickr-image {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  	-moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 767px) {
+	#submit {
+		width: 100%;
+		margin-top: 10px; 
+	}
+}
